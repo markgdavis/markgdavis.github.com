@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'TallDarkAndHandsomeCondensed';
+    src: url('talldarkandhandsome-condensed-webfont.eot');
+    src: url('talldarkandhandsome-condensed-webfont.eot?#iefix') format('eot'),
+         url('talldarkandhandsome-condensed-webfont.woff') format('woff'),
+         url('talldarkandhandsome-condensed-webfont.ttf') format('truetype'),
+         url('talldarkandhandsome-condensed-webfont.svg#webfont4zw0S41c') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: 'TallDarkAndHandsomeCondensed', sans-serif;
+  font-size: 40px;
+  background: #9f9199;
+  line-height: 50px;
+  height: 100%;
+}
+
+article {
+  width: 360px;
+  height: 360px;
+  border: 1px solid #333;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -200px 0 0 -200px;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: normal;
+  display: inline;
+  font-size: 48px;
+  padding: 0 5px 0 0;
+}
+
+p {
+  display: inline;
+}
