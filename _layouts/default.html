@@ -5,11 +5,37 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/html5.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/application.css" />
   <meta charset="utf-8">
+  <script language="JavaScript">
+  <!--
+    function myMailto(user, host) {
+    e = user + "@";
+    for (i = 0; i < host.length - 1; i++) { e = e + host[i] + "."; }
+    e = e + host[host.length - 1] ;
+    document.writeln("<a href='mailto:" + e + "'>" + e + "</a>");
+    }
+  -->
+  </script>
 </head>
 <body>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-22598233-1']);
+    _gaq.push(['_trackPageview']);
+  
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
   <article>
     <h1>Mark G. Davis</h1>
     <p>is a J.D. living in Brooklyn, NY. He is currently a legal and financial analyst at Syzygy Therapeutics, a private equity firm in New York City.</p>
+    <ul>
+      <li><script language="JavaScript"> myMailto("markgdavis", [ "gmail","com" ]); </script></li>
+      <li><a href="http://www.linkedin.com/in/onchimgd">LinkedIn</a></li>
+      <li><a href="http://60forty.tumblr.com/">Tumblr</a></li>
+    </ul>
   </article>
 </body>
 </html>
