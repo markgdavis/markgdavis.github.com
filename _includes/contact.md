@@ -1,0 +1,1 @@
+He can be reached [by email](mailto:mark@onchimgd.com), [with Twitter](http://twitter.com/onchimgd), [on LinkedIn](http://www.linkedin.com/in/onchimgd), and [at his Tumblr](http://onchimgd.tumblr.com).
