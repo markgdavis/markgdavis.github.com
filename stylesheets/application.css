@@ -1,53 +1,35 @@
-@font-face {
-    font-family: 'TallDarkAndHandsomeCondensed';
-    src: url('talldarkandhandsome-condensed-webfont.eot');
-    src: url('talldarkandhandsome-condensed-webfont.eot?#iefix') format('eot'),
-         url('talldarkandhandsome-condensed-webfont.woff') format('woff'),
-         url('talldarkandhandsome-condensed-webfont.ttf') format('truetype'),
-         url('talldarkandhandsome-condensed-webfont.svg#webfont4zw0S41c') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-body {
-  font-family: 'TallDarkAndHandsomeCondensed', sans-serif;
-  font-size: 40px;
-  background: #9f9199;
-  line-height: 50px;
+html, body {
   height: 100%;
 }
 
+body {
+  font-family: 'Ovo', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background: #f9fbfc;
+}
+
 article {
-  width: 360px;
-  height: 360px;
-  border: 1px solid #333;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin: -200px 0 0 -200px;
-  padding: 20px;
+  width: 24em;
+  max-width: 80%;
+  font-size: 28px;
+  line-height: 1.4em;
+  color: #526375;
 }
 
 h1 {
   font-weight: normal;
   display: inline;
-  font-size: 48px;
-  padding: 0 5px 0 0;
+  font-size: inherit;
+  color: #731a15;
 }
 
 p {
   display: inline;
 }
 
-ul {
-  position: absolute;
-  bottom: 10px;
-  list-style: none;
-  margin: 0;
-}
-
-li {
-  float: left;
-  margin: 0 10px 0 0;
+a {
+  color: #155c73;
 }
