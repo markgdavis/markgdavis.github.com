@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Ovo', serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  background: #f9fbfc;
+}
+
+article {
+  width: 24em;
+  max-width: 80%;
+  font-size: 28px;
+  line-height: 1.4em;
+  color: #526375;
+}
+
+h1 {
+  font-weight: normal;
+  display: inline;
+  font-size: inherit;
+  color: #731a15;
+}
+
+p {
+  display: inline;
+}
+
+a {
+  color: #155c73;
+}
