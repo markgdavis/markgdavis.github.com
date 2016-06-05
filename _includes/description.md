@@ -1,1 +1,1 @@
-is a J.D. specializing in fund formation & operations, currently living in Brooklyn, New York.
+is a J.D. specializing in business development & operations, currently living in Brooklyn, New York.
